@@ -1,0 +1,74 @@
+[
+  {
+    "trainNo": 12001,
+    "trainName": "Express Rajdhani",
+    "capacity": 800,
+    "trainType": "Express",
+    "farePerStops": 150.75,
+    "activeDaysList": ["Monday", "Wednesday", "Friday"]
+  },
+  {
+    "trainNo": 12002,
+    "trainName": "Shatabdi Express",
+    "capacity": 700,
+    "trainType": "SuperFast",
+    "farePerStops": 180.50,
+    "activeDaysList": ["Tuesday", "Thursday", "Saturday"]
+  },
+  {
+    "trainNo": 12003,
+    "trainName": "Duronto Express",
+    "capacity": 850,
+    "trainType": "SuperFast",
+    "farePerStops": 200.00,
+    "activeDaysList": ["Sunday", "Monday", "Friday"]
+  },
+  {
+    "trainNo": 12004,
+    "trainName": "Jan Shatabdi",
+    "capacity": 600,
+    "trainType": "Express",
+    "farePerStops": 120.00,
+    "activeDaysList": ["Tuesday", "Thursday", "Saturday"]
+  },
+  {
+    "trainNo": 12005,
+    "trainName": "Garib Rath",
+    "capacity": 900,
+    "trainType": "Express",
+    "farePerStops": 100.00,
+    "activeDaysList": ["Monday", "Wednesday", "Friday", "Sunday"]
+  },
+  {
+    "trainNo": 12006,
+    "trainName": "Intercity Express",
+    "capacity": 750,
+    "trainType": "Local",
+    "farePerStops": 80.00,
+    "activeDaysList": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  },
+  {
+    "trainNo": 12007,
+    "trainName": "Tejas Express",
+    "capacity": 500,
+    "trainType": "SuperFast",
+    "farePerStops": 250.00,
+    "activeDaysList": ["Saturday", "Sunday"]
+  },
+  {
+    "trainNo": 12008,
+    "trainName": "Maharaja Express",
+    "capacity": 300,
+    "trainType": "Premium",
+    "farePerStops": 500.00,
+    "activeDaysList": ["Wednesday", "Sunday"]
+  },
+  {
+    "trainNo": 12009,
+    "trainName": "Vande Bharat Express",
+    "capacity": 850,
+    "trainType": "SuperFast",
+    "farePerStops": 220.00,
+    "activeDaysList": ["Monday", "Tuesday", "Friday"]
+  }
+]

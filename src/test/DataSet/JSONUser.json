@@ -1,0 +1,66 @@
+[
+  {
+    "firstName": "Darshan",
+    "lastName": "Kania",
+    "email": "darshankania2604@gmail.com",
+    "password": "Darshan@2604",
+    "role": "ADMIN",
+    "phoneNo": "9979783661"
+  },
+  {
+    "firstName": "Aarav",
+    "lastName": "Shah",
+    "email": "aaravshah123@gmail.com",
+    "password": "Aarav@1234",
+    "role": "USER",
+    "phoneNo": "9876543210"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Patel",
+    "email": "priyapatel456@gmail.com",
+    "password": "Priya@4567",
+    "role": "ADMIN",
+    "phoneNo": "9123456789"
+  },
+  {
+    "firstName": "Rohan",
+    "lastName": "Mehta",
+    "email": "rohanmehta789@gmail.com",
+    "password": "Rohan@7890",
+    "role": "USER",
+    "phoneNo": "9988776655"
+  },
+  {
+    "firstName": "Sanya",
+    "lastName": "Verma",
+    "email": "sanyaverma123@gmail.com",
+    "password": "Sanya@1234",
+    "role": "USER",
+    "phoneNo": "9234567890"
+  },
+  {
+    "firstName": "Karan",
+    "lastName": "Joshi",
+    "email": "karanjoshi567@gmail.com",
+    "password": "Karan@5678",
+    "role": "ADMIN",
+    "phoneNo": "9345678901"
+  },
+  {
+    "firstName": "Neha",
+    "lastName": "Rao",
+    "email": "neharao789@gmail.com",
+    "password": "Neha@7890",
+    "role": "ADMIN",
+    "phoneNo": "9456789012"
+  },
+  {
+    "firstName": "Vikas",
+    "lastName": "Yadav",
+    "email": "vikasyadav234@gmail.com",
+    "password": "Vikas@2345",
+    "role": "USER",
+    "phoneNo": "9567890123"
+  }
+]
