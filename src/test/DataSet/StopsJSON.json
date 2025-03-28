@@ -1,0 +1,481 @@
+{
+  "trains": [
+    {
+      "trainNo": 12000,
+      "stops": [
+        {
+          "stationId": 5,
+          "stopNo": 1,
+          "arrivalTime": "06:00:00",
+          "departureTime": "06:15:00"
+        },
+        {
+          "stationId": 11,
+          "stopNo": 2,
+          "arrivalTime": "08:30:00",
+          "departureTime": "08:45:00"
+        },
+        {
+          "stationId": 17,
+          "stopNo": 3,
+          "arrivalTime": "11:00:00",
+          "departureTime": "11:15:00"
+        },
+        {
+          "stationId": 23,
+          "stopNo": 4,
+          "arrivalTime": "14:00:00",
+          "departureTime": "14:15:00"
+        },
+        {
+          "stationId": 30,
+          "stopNo": 5,
+          "arrivalTime": "17:00:00",
+          "departureTime": "17:15:00"
+        },
+        {
+          "stationId": 37,
+          "stopNo": 6,
+          "arrivalTime": "20:00:00",
+          "departureTime": "20:15:00"
+        },
+        {
+          "stationId": 42,
+          "stopNo": 7,
+          "arrivalTime": "23:30:00",
+          "departureTime": "23:45:00"
+        },
+        {
+          "stationId": 45,
+          "stopNo": 8,
+          "arrivalTime": "02:00:00",
+          "departureTime": "02:15:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12001,
+      "stops": [
+        {
+          "stationId": 1,
+          "stopNo": 1,
+          "arrivalTime": "05:30:00",
+          "departureTime": "05:40:00"
+        },
+        {
+          "stationId": 5,
+          "stopNo": 2,
+          "arrivalTime": "07:20:00",
+          "departureTime": "07:30:00"
+        },
+        {
+          "stationId": 10,
+          "stopNo": 3,
+          "arrivalTime": "09:10:00",
+          "departureTime": "09:20:00"
+        },
+        {
+          "stationId": 15,
+          "stopNo": 4,
+          "arrivalTime": "11:00:00",
+          "departureTime": "11:10:00"
+        },
+        {
+          "stationId": 20,
+          "stopNo": 5,
+          "arrivalTime": "13:45:00",
+          "departureTime": "13:55:00"
+        },
+        {
+          "stationId": 25,
+          "stopNo": 6,
+          "arrivalTime": "16:30:00",
+          "departureTime": "16:45:00"
+        },
+        {
+          "stationId": 30,
+          "stopNo": 7,
+          "arrivalTime": "19:10:00",
+          "departureTime": "19:25:00"
+        },
+        {
+          "stationId": 35,
+          "stopNo": 8,
+          "arrivalTime": "22:00:00",
+          "departureTime": "22:15:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12002,
+      "stops": [
+        {
+          "stationId": 2,
+          "stopNo": 1,
+          "arrivalTime": "06:00:00",
+          "departureTime": "06:10:00"
+        },
+        {
+          "stationId": 7,
+          "stopNo": 2,
+          "arrivalTime": "08:30:00",
+          "departureTime": "08:40:00"
+        },
+        {
+          "stationId": 12,
+          "stopNo": 3,
+          "arrivalTime": "11:15:00",
+          "departureTime": "11:30:00"
+        },
+        {
+          "stationId": 18,
+          "stopNo": 4,
+          "arrivalTime": "14:10:00",
+          "departureTime": "14:25:00"
+        },
+        {
+          "stationId": 24,
+          "stopNo": 5,
+          "arrivalTime": "17:00:00",
+          "departureTime": "17:15:00"
+        },
+        {
+          "stationId": 29,
+          "stopNo": 6,
+          "arrivalTime": "20:30:00",
+          "departureTime": "20:45:00"
+        },
+        {
+          "stationId": 34,
+          "stopNo": 7,
+          "arrivalTime": "23:15:00",
+          "departureTime": "23:30:00"
+        },
+        {
+          "stationId": 39,
+          "stopNo": 8,
+          "arrivalTime": "02:10:00",
+          "departureTime": "02:25:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12003,
+      "stops": [
+        {
+          "stationId": 3,
+          "stopNo": 1,
+          "arrivalTime": "07:00:00",
+          "departureTime": "07:15:00"
+        },
+        {
+          "stationId": 8,
+          "stopNo": 2,
+          "arrivalTime": "09:20:00",
+          "departureTime": "09:30:00"
+        },
+        {
+          "stationId": 13,
+          "stopNo": 3,
+          "arrivalTime": "12:00:00",
+          "departureTime": "12:10:00"
+        },
+        {
+          "stationId": 19,
+          "stopNo": 4,
+          "arrivalTime": "15:30:00",
+          "departureTime": "15:45:00"
+        },
+        {
+          "stationId": 25,
+          "stopNo": 5,
+          "arrivalTime": "18:15:00",
+          "departureTime": "18:30:00"
+        },
+        {
+          "stationId": 31,
+          "stopNo": 6,
+          "arrivalTime": "21:00:00",
+          "departureTime": "21:15:00"
+        },
+        {
+          "stationId": 37,
+          "stopNo": 7,
+          "arrivalTime": "23:50:00",
+          "departureTime": "00:05:00"
+        },
+        {
+          "stationId": 43,
+          "stopNo": 8,
+          "arrivalTime": "02:40:00",
+          "departureTime": "02:55:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12004,
+      "stops": [
+        {
+          "stationId": 4,
+          "stopNo": 1,
+          "arrivalTime": "08:00:00",
+          "departureTime": "08:10:00"
+        },
+        {
+          "stationId": 9,
+          "stopNo": 2,
+          "arrivalTime": "10:30:00",
+          "departureTime": "10:45:00"
+        },
+        {
+          "stationId": 14,
+          "stopNo": 3,
+          "arrivalTime": "13:00:00",
+          "departureTime": "13:15:00"
+        },
+        {
+          "stationId": 20,
+          "stopNo": 4,
+          "arrivalTime": "16:30:00",
+          "departureTime": "16:45:00"
+        },
+        {
+          "stationId": 26,
+          "stopNo": 5,
+          "arrivalTime": "19:00:00",
+          "departureTime": "19:15:00"
+        },
+        {
+          "stationId": 32,
+          "stopNo": 6,
+          "arrivalTime": "21:45:00",
+          "departureTime": "22:00:00"
+        },
+        {
+          "stationId": 38,
+          "stopNo": 7,
+          "arrivalTime": "01:30:00",
+          "departureTime": "01:45:00"
+        },
+        {
+          "stationId": 44,
+          "stopNo": 8,
+          "arrivalTime": "04:10:00",
+          "departureTime": "04:25:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12005,
+      "stops": [
+        {
+          "stationId": 5,
+          "stopNo": 1,
+          "arrivalTime": "06:00:00",
+          "departureTime": "06:10:00"
+        },
+        {
+          "stationId": 10,
+          "stopNo": 2,
+          "arrivalTime": "08:30:00",
+          "departureTime": "08:40:00"
+        },
+        {
+          "stationId": 15,
+          "stopNo": 3,
+          "arrivalTime": "11:15:00",
+          "departureTime": "11:30:00"
+        },
+        {
+          "stationId": 20,
+          "stopNo": 4,
+          "arrivalTime": "14:10:00",
+          "departureTime": "14:25:00"
+        },
+        {
+          "stationId": 25,
+          "stopNo": 5,
+          "arrivalTime": "17:00:00",
+          "departureTime": "17:15:00"
+        },
+        {
+          "stationId": 30,
+          "stopNo": 6,
+          "arrivalTime": "20:30:00",
+          "departureTime": "20:45:00"
+        },
+        {
+          "stationId": 35,
+          "stopNo": 7,
+          "arrivalTime": "23:15:00",
+          "departureTime": "23:30:00"
+        },
+        {
+          "stationId": 40,
+          "stopNo": 8,
+          "arrivalTime": "02:10:00",
+          "departureTime": "02:25:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12006,
+      "stops": [
+        {
+          "stationId": 6,
+          "stopNo": 1,
+          "arrivalTime": "07:00:00",
+          "departureTime": "07:10:00"
+        },
+        {
+          "stationId": 12,
+          "stopNo": 2,
+          "arrivalTime": "09:30:00",
+          "departureTime": "09:40:00"
+        },
+        {
+          "stationId": 18,
+          "stopNo": 3,
+          "arrivalTime": "12:00:00",
+          "departureTime": "12:10:00"
+        },
+        {
+          "stationId": 24,
+          "stopNo": 4,
+          "arrivalTime": "15:30:00",
+          "departureTime": "15:45:00"
+        },
+        {
+          "stationId": 30,
+          "stopNo": 5,
+          "arrivalTime": "18:00:00",
+          "departureTime": "18:15:00"
+        },
+        {
+          "stationId": 36,
+          "stopNo": 6,
+          "arrivalTime": "21:30:00",
+          "departureTime": "21:45:00"
+        },
+        {
+          "stationId": 42,
+          "stopNo": 7,
+          "arrivalTime": "00:00:00",
+          "departureTime": "00:15:00"
+        },
+        {
+          "stationId": 45,
+          "stopNo": 8,
+          "arrivalTime": "02:30:00",
+          "departureTime": "02:45:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12007,
+      "stops": [
+        {
+          "stationId": 7,
+          "stopNo": 1,
+          "arrivalTime": "08:00:00",
+          "departureTime": "08:10:00"
+        },
+        {
+          "stationId": 14,
+          "stopNo": 2,
+          "arrivalTime": "10:30:00",
+          "departureTime": "10:40:00"
+        },
+        {
+          "stationId": 21,
+          "stopNo": 3,
+          "arrivalTime": "13:00:00",
+          "departureTime": "13:15:00"
+        },
+        {
+          "stationId": 28,
+          "stopNo": 4,
+          "arrivalTime": "16:30:00",
+          "departureTime": "16:45:00"
+        },
+        {
+          "stationId": 34,
+          "stopNo": 5,
+          "arrivalTime": "19:00:00",
+          "departureTime": "19:15:00"
+        },
+        {
+          "stationId": 39,
+          "stopNo": 6,
+          "arrivalTime": "22:00:00",
+          "departureTime": "22:15:00"
+        },
+        {
+          "stationId": 43,
+          "stopNo": 7,
+          "arrivalTime": "01:00:00",
+          "departureTime": "01:15:00"
+        },
+        {
+          "stationId": 45,
+          "stopNo": 8,
+          "arrivalTime": "03:30:00",
+          "departureTime": "03:45:00"
+        }
+      ]
+    },
+    {
+      "trainNo": 12008,
+      "stops": [
+        {
+          "stationId": 8,
+          "stopNo": 1,
+          "arrivalTime": "09:00:00",
+          "departureTime": "09:10:00"
+        },
+        {
+          "stationId": 16,
+          "stopNo": 2,
+          "arrivalTime": "11:30:00",
+          "departureTime": "11:45:00"
+        },
+        {
+          "stationId": 24,
+          "stopNo": 3,
+          "arrivalTime": "14:15:00",
+          "departureTime": "14:30:00"
+        },
+        {
+          "stationId": 32,
+          "stopNo": 4,
+          "arrivalTime": "17:45:00",
+          "departureTime": "18:00:00"
+        },
+        {
+          "stationId": 38,
+          "stopNo": 5,
+          "arrivalTime": "20:15:00",
+          "departureTime": "20:30:00"
+        },
+        {
+          "stationId": 42,
+          "stopNo": 6,
+          "arrivalTime": "23:00:00",
+          "departureTime": "23:15:00"
+        },
+        {
+          "stationId": 44,
+          "stopNo": 7,
+          "arrivalTime": "01:30:00",
+          "departureTime": "01:45:00"
+        },
+        {
+          "stationId": 45,
+          "stopNo": 8,
+          "arrivalTime": "04:00:00",
+          "departureTime": "04:15:00"
+        }
+      ]
+    }
+  ]
+}

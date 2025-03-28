@@ -1,0 +1,227 @@
+[
+  {
+    "stationName": "Ahmedabad Junction",
+    "stationCode": "ADI",
+    "city": "Ahmedabad"
+  },
+  {
+    "stationName": "Surat",
+    "stationCode": "ST",
+    "city": "Surat"
+  },
+  {
+    "stationName": "Vadodara Junction",
+    "stationCode": "BRC",
+    "city": "Vadodara"
+  },
+  {
+    "stationName": "Rajkot Junction",
+    "stationCode": "RJT",
+    "city": "Rajkot"
+  },
+  {
+    "stationName": "Gandhinagar Capital",
+    "stationCode": "GNC",
+    "city": "Gandhinagar"
+  },
+  {
+    "stationName": "Bhavnagar Terminus",
+    "stationCode": "BVC",
+    "city": "Bhavnagar"
+  },
+  {
+    "stationName": "Jamnagar",
+    "stationCode": "JAM",
+    "city": "Jamnagar"
+  },
+  {
+    "stationName": "Junagadh Junction",
+    "stationCode": "JND",
+    "city": "Junagadh"
+  },
+  {
+    "stationName": "Porbandar",
+    "stationCode": "PBR",
+    "city": "Porbandar"
+  },
+  {
+    "stationName": "Dwarka",
+    "stationCode": "DWK",
+    "city": "Dwarka"
+  },
+  {
+    "stationName": "Veraval",
+    "stationCode": "VRL",
+    "city": "Veraval"
+  },
+  {
+    "stationName": "Mehsana Junction",
+    "stationCode": "MSH",
+    "city": "Mehsana"
+  },
+  {
+    "stationName": "Anand Junction",
+    "stationCode": "ANND",
+    "city": "Anand"
+  },
+  {
+    "stationName": "Nadiad Junction",
+    "stationCode": "ND",
+    "city": "Nadiad"
+  },
+  {
+    "stationName": "Bharuch Junction",
+    "stationCode": "BH",
+    "city": "Bharuch"
+  },
+  {
+    "stationName": "Vapi",
+    "stationCode": "VAPI",
+    "city": "Vapi"
+  },
+  {
+    "stationName": "Ankleshwar Junction",
+    "stationCode": "AKV",
+    "city": "Ankleshwar"
+  },
+  {
+    "stationName": "Dahod",
+    "stationCode": "DHD",
+    "city": "Dahod"
+  },
+  {
+    "stationName": "Palanpur Junction",
+    "stationCode": "PNU",
+    "city": "Palanpur"
+  },
+  {
+    "stationName": "Gondal",
+    "stationCode": "GDL",
+    "city": "Gondal"
+  },
+  {
+    "stationName": "Surendranagar Junction",
+    "stationCode": "SUNR",
+    "city": "Surendranagar"
+  },
+  {
+    "stationName": "Morbi",
+    "stationCode": "MVI",
+    "city": "Morbi"
+  },
+  {
+    "stationName": "Navsari",
+    "stationCode": "NVS",
+    "city": "Navsari"
+  },
+  {
+    "stationName": "New Delhi",
+    "stationCode": "NDLS",
+    "city": "New Delhi"
+  },
+  {
+    "stationName": "Mumbai Central",
+    "stationCode": "BCT",
+    "city": "Mumbai"
+  },
+  {
+    "stationName": "Howrah Junction",
+    "stationCode": "HWH",
+    "city": "Kolkata"
+  },
+  {
+    "stationName": "Chennai Central",
+    "stationCode": "MAS",
+    "city": "Chennai"
+  },
+  {
+    "stationName": "Bangalore City Junction",
+    "stationCode": "SBC",
+    "city": "Bangalore"
+  },
+  {
+    "stationName": "Hyderabad Deccan",
+    "stationCode": "HYB",
+    "city": "Hyderabad"
+  },
+  {
+    "stationName": "Pune Junction",
+    "stationCode": "PUNE",
+    "city": "Pune"
+  },
+  {
+    "stationName": "Lucknow Junction",
+    "stationCode": "LJN",
+    "city": "Lucknow"
+  },
+  {
+    "stationName": "Kanpur Central",
+    "stationCode": "CNB",
+    "city": "Kanpur"
+  },
+  {
+    "stationName": "Patna Junction",
+    "stationCode": "PNBE",
+    "city": "Patna"
+  },
+  {
+    "stationName": "Bhopal Junction",
+    "stationCode": "BPL",
+    "city": "Bhopal"
+  },
+  {
+    "stationName": "Jaipur Junction",
+    "stationCode": "JP",
+    "city": "Jaipur"
+  },
+  {
+    "stationName": "Nagpur Junction",
+    "stationCode": "NGP",
+    "city": "Nagpur"
+  },
+  {
+    "stationName": "Indore Junction",
+    "stationCode": "INDB",
+    "city": "Indore"
+  },
+  {
+    "stationName": "Jammu Tawi",
+    "stationCode": "JAT",
+    "city": "Jammu"
+  },
+  {
+    "stationName": "Kochi Ernakulam",
+    "stationCode": "ERS",
+    "city": "Kochi"
+  },
+  {
+    "stationName": "Tirupati",
+    "stationCode": "TPTY",
+    "city": "Tirupati"
+  },
+  {
+    "stationName": "Amritsar Junction",
+    "stationCode": "ASR",
+    "city": "Amritsar"
+  },
+  {
+    "stationName": "Guwahati",
+    "stationCode": "GHY",
+    "city": "Guwahati"
+  },
+  {
+    "stationName": "Varanasi Junction",
+    "stationCode": "BSB",
+    "city": "Varanasi"
+  },
+  {
+    "stationName": "Visakhapatnam",
+    "stationCode": "VSKP",
+    "city": "Visakhapatnam"
+  },
+  {
+    "stationName": "Ranchi Junction",
+    "stationCode": "RNC",
+    "city": "Ranchi"
+  }
+]

@@ -2,17 +2,17 @@ package com.RailSwift.Devlopment.Entities;
 
 import jakarta.persistence.*;
 
-import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 @Entity(name = "Stops")
 @Table(name = "stops")
 public class Stops {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "stop_id")
     private int stopId;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
     @JoinColumn(name = "station_id", nullable = false)
     private Station station;
 
@@ -20,15 +20,15 @@ public class Stops {
     private int stopNo;
 
     @Column(name = "arrival_time", nullable = false)
-    private LocalDateTime arrivalTime;
+    private LocalTime arrivalTime;
 
     @Column(name = "departure_time", nullable = false)
-    private LocalDateTime departureTime;
+    private LocalTime departureTime;
 
     public Stops() {
     }
 
-    public Stops(final Station station, final int stopNo, final LocalDateTime arrivalTime, final LocalDateTime departureTime) {
+    public Stops(final Station station, final int stopNo, final LocalTime arrivalTime, final LocalTime departureTime) {
         this.station = station;
         this.stopNo = stopNo;
         this.arrivalTime = arrivalTime;
@@ -59,19 +59,19 @@ public class Stops {
         this.stopNo = stopNo;
     }
 
-    public LocalDateTime getArrivalTime() {
+    public LocalTime getArrivalTime() {
         return this.arrivalTime;
     }
 
-    public void setArrivalTime(final LocalDateTime arrivalTime) {
+    public void setArrivalTime(final LocalTime arrivalTime) {
         this.arrivalTime = arrivalTime;
     }
 
-    public LocalDateTime getDepartureTime() {
+    public LocalTime getDepartureTime() {
         return this.departureTime;
     }
 
-    public void setDepartureTime(final LocalDateTime departureTime) {
+    public void setDepartureTime(final LocalTime departureTime) {
         this.departureTime = departureTime;
     }
 

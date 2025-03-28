@@ -28,7 +28,7 @@ public class Train {
     @ElementCollection
     private List<ActiveDays> activeDaysList;
 
-    @OneToMany( cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany( cascade = CascadeType.ALL)
     @JoinColumn(name = "train_no")
     private List<Stops> stopsList;
 

@@ -1,8 +1,8 @@
 package com.RailSwift.Devlopment.Controller;
 
+import com.RailSwift.Devlopment.DTO.StopDetails;
 import com.RailSwift.Devlopment.DTO.TrainDeatils;
 import com.RailSwift.Devlopment.DTO.TrainList;
-import com.RailSwift.Devlopment.Entities.Stops;
 import com.RailSwift.Devlopment.Entities.Train;
 import com.RailSwift.Devlopment.Entities.TrainType;
 import com.RailSwift.Devlopment.Service.TrainService;
@@ -70,44 +70,21 @@ public class TrainController {
         return trainService.findTrainByTrainNo(trainNo);
     }
 
-    @PutMapping("/AddStops/{trainNo}")
-    public Train updateTrainStops(@PathVariable Long trainNo, @RequestParam List<Stops> stops) {
-        trainService.updateTrainStops(trainNo, stops);
-        return trainService.findTrainByTrainNo(trainNo);
-    }
 
-    @PutMapping("/AddTrainStop/{trainNo}")
-    public Train addTrainStop(@PathVariable Long trainNo, @RequestParam Stops stop, @RequestParam int stopNo) {
-        trainService.addTrainStop(trainNo, stop, stopNo);
-        return trainService.findTrainByTrainNo(trainNo);
-    }
-
-    @PutMapping("/DeleteTrainStop/{trainNo}")
-    public Train deleteTrainStop(@PathVariable Long trainNo, @RequestParam int stopNo) {
-        trainService.deleteTrainStop(trainNo, stopNo);
-        return trainService.findTrainByTrainNo(trainNo);
-    }
-
-    @PutMapping("/UpdateTrainStop/{trainNo}")
-    public Train updateTrainStop(@PathVariable Long trainNo, @RequestParam Stops stop, @RequestParam int stopNo) {
-        trainService.updateTrainStop(trainNo, stop, stopNo);
-        return trainService.findTrainByTrainNo(trainNo);
-    }
-
-    @GetMapping("/TrainDetails/TrainsBySrcDst")
-    public List<TrainDeatils> getListOfTrainBySrcDst(@RequestParam String src, @RequestParam String dst) {
+    @GetMapping("/TrainDetails/TrainsBySrcDst/{src}/{dst}")
+    public List<TrainDeatils> getListOfTrainBySrcDst(@PathVariable String src, @PathVariable String dst) {
         List<TrainDeatils> trainDeatilsList = trainService.getListOfTrainBySrcDst(src, dst);
         return trainDeatilsList;
     }
 
-    @GetMapping("TrainDetails/TrainListOnDate")
+    @GetMapping("/TrainDetails/TrainListOnDate")
     public List<Train> getTrainListOnDate(@RequestParam LocalDate date) {
 //        LocalDate dt = LocalDate.parse("2018-01-32");
         return trainService.getListOfTrainOnDate(date);
     }
 
-    @GetMapping("TrainDetails/TrainSrcDestOnDate")
-    public List<TrainDeatils> getTrainSrcDestOnDate(@RequestParam String src, @RequestParam String dst, @RequestParam LocalDate date) {
+    @GetMapping("/TrainDetails/TrainsBySrcDstOnDate/{src}/{dst}/{date}")
+    public List<TrainDeatils> getTrainSrcDestOnDate(@PathVariable String src, @PathVariable String dst, @PathVariable LocalDate date) {
         return trainService.getListOfTrainBySrcDstAndDate(src, dst, date);
     }
 
@@ -117,4 +94,9 @@ public class TrainController {
         return "Train with trainNo: " + trainNo + " deleted successfully";
     }
 
+    //    Working
+    @PutMapping("/AddTrainStops/{trainNo}")
+    public Train addTrainStops(@PathVariable Long trainNo, @RequestBody List<StopDetails> stopDetails) {
+        return trainService.addStops(trainNo, stopDetails);
+    }
 }

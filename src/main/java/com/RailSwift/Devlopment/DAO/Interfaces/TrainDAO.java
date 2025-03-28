@@ -17,15 +17,11 @@ public interface TrainDAO {
 
     public void updateTrainType(Long trainNo, TrainType trainType);
 
-    public void updateTrainStops(Long trainNo, List<Stops> stops);
 
     public void deleteTrain(Long trainNo);
 
-    public void addTrainStop(Long trainNo, Stops stop, int stopNo);
-
-    public void deleteTrainStop(Long trainNo, int stopNo);
-
-    public void updateTrainStop(Long trainNo, Stops stop, int stopNo);
 
     public List<Train> getListOfTrainBySrcDst(String src, String dst);
+
+    public Train addTrainStops(Train train, List<Stops> stopsList);
 }
