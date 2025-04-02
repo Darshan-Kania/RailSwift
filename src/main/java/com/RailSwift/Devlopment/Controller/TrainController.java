@@ -3,6 +3,8 @@ package com.RailSwift.Devlopment.Controller;
 import com.RailSwift.Devlopment.DTO.StopDetails;
 import com.RailSwift.Devlopment.DTO.TrainDeatils;
 import com.RailSwift.Devlopment.DTO.TrainList;
+import com.RailSwift.Devlopment.Entities.Station;
+import com.RailSwift.Devlopment.Entities.Stops;
 import com.RailSwift.Devlopment.Entities.Train;
 import com.RailSwift.Devlopment.Entities.TrainType;
 import com.RailSwift.Devlopment.Service.TrainService;
@@ -50,13 +52,32 @@ public class TrainController {
     public List<TrainList> getAllTrain() {
         List<Train> trains = trainService.findAllTrains();
         List<TrainList> trainLists = new ArrayList<>();
+
         for (Train train : trains) {
-            int stops = train.getStopsList().size();
-            TrainList trainList = new TrainList(train.getTrainNo(), train.getTrainName(), train.getTrainType(), train.getStopsList().get(0).getStation(), train.getStopsList().get(stops - 1).getStation());
+            List<Stops> stopsList = train.getStopsList();
+
+            if (stopsList == null || stopsList.isEmpty()) {
+                // Handle empty stops list appropriately, maybe skip this train or add default values
+                continue; // Skipping this train if there are no stops
+            }
+
+            int stops = stopsList.size();
+            Station src = stopsList.get(0).getStation();
+            Station dst = stopsList.get(stops - 1).getStation();
+            TrainList trainList = new TrainList(
+                    train.getTrainNo(),
+                    train.getTrainName(),
+                    train.getTrainType(),
+                    src,
+                    dst
+            );
+
             trainLists.add(trainList);
         }
+
         return trainLists;
     }
+
 
     @PutMapping("/UpdateTrainName/{trainNo}")
     public Train updateTrainName(@PathVariable Long trainNo, @RequestParam String trainName) {

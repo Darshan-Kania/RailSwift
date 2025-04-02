@@ -25,10 +25,18 @@ public class UserService {
         userDAO.addUser(user);
     }
 
+    public Users getUserById(int userId,String rawPassword) {
+        Users user = userDAO.getUser(userId);
+        if(passwordEncoder.matches(rawPassword,user.getPassword()))
+        {
+            return user;
+        }
+        else
+            throw new RuntimeException("Incorrect Password");
+    }
     public Users getUser(int userId) {
         return userDAO.getUser(userId);
     }
-
     public Users getUserByEmail(String email) {
         return userDAO.getUserByEmail(email);
     }

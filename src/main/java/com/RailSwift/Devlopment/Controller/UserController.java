@@ -35,9 +35,9 @@ public class UserController {
         return usersList;
     }
 
-    @GetMapping("/UserDetails/{userId}")
-    public Users getUserDetails(@PathVariable int userId) {
-        return userService.getUser(userId);
+    @GetMapping("/UserDetails/{userId}/{rawPassWord}")
+    public Users getUserDetails(@PathVariable int userId,@PathVariable String rawPassWord) {
+        return userService.getUserById(userId,rawPassWord);
     }
 
     @GetMapping("/UserDetails/Email/{email}")
